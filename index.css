@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 10%; 
 }
 .box{
     width:500px;
@@ -14,7 +14,27 @@
     justify-content: center; 
     align-items: center;
     border: 2px solid;
+    font-size: large;
     
    
 }
+.btn{
+    margin: 50px;
+    width:150px;
+    font-weight: 400;
+}
+@media (max-width:768px) {
+    .box {
+        width: 300px; 
+        height: auto; 
+        font-size: medium; 
+    }
+
+    .btn {
+        width: 100px; 
+        margin: 20px; 
+    }
+    
+}
+
 
